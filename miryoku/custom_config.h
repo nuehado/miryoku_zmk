@@ -8,9 +8,9 @@ U_LT(U_BUTTON, Z), U_MT(LALT, X), U_MT(LCTRL, C), U_MT(LSHFT, V), U_MT(LGUI, B),
 U_NP, U_NP, U_LT(U_MEDIA, ESC),U_LT(U_NAV, TAB),U_LT(U_MOUSE, SPACE),                        U_LT(U_SYM, BSPC),  U_LT(U_NUM, RET), U_LT(U_FUN, DEL),  U_NP, U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
-&kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp DLLR,          &kp PRCNT,         &kp CARET,         &kp PLUS,          U_NA,              U_NA,              U_NA,              U_NA,              U_NA,          \
-&kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          &kp LGUI,          &kp LSHFT,         &kp LCTRL,         &kp LALT,          U_NA,              \
+&kp APOS,          &kp DQT,          &kp CARET,         &kp BSLH,          &kp GRAVE,          &kp LBKT,              &kp LT,      &kp EQUAL,     &kp RT,       &kp RBKT,            \
+&kp EXCL,         &kp AT,          &kp NUHS,         &kp DLLR,         &kp AMP,          &kp LBRC,              &kp LPAR,              &kp PIPE,              &kp RPAR,              &kp RBRC,          \
+&kp PRCNT,         &kp FSLH,          &kp MINUS,            &kp PLUS,          &kp STAR,          &kp UNDER,          &kp EQUAL &kp RT,         U_NA,         U_NA,          U_NA,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NAV \

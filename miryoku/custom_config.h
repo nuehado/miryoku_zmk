@@ -11,5 +11,5 @@ U_NP, U_NP, U_LT(U_MEDIA, ESC),U_LT(U_NAV, TAB),U_LT(U_MOUSE, SPACE),           
 #define MIRYOKU_LAYER_NAV \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp INS,           &kp HOME,          &kp UP,            &kp END,           &kp PG_UP,         \
 U_NA,              &kp RALT,          U_NA,              U_NA,              U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp PG_DN,         \
-U_NA,              &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp LGUI,          U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+U_NA,              &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp LGUI,          U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP

@@ -1,12 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-ZMK_BEHAVIOR(equal_arrow, macro,
-    wait-ms = <100>;
-    tap-ms = <5>;
-    bindings = <&kp EQUAL &kp RT>;
-)
-
 #define MIRYOKU_LAYER_BASE \
 &kp Q,     &kp W,     &kp E,    &kp R,    &kp T,                                             &kp Y,  &kp U, &kp I, &kp O, &kp P,\
 &kp A,     &kp S,     &kp D,    &kp F,    &kp G,                                             &kp H, &kp J, &kp K, &kp L, &kp SEMI,\
@@ -16,7 +10,7 @@ U_NP, U_NP, U_LT(U_MEDIA, ESC),U_LT(U_NAV, TAB),U_LT(U_MOUSE, SPACE),           
 #define MIRYOKU_LAYER_SYM \
 &kp APOS,          &kp DQT,          &kp CARET,        &kp BSLH,         &kp GRAVE,        &kp LBKT,          &kp LT,               &kp EQUAL,     &kp RT,       &kp RBKT,            \
 &kp EXCL,          &kp AT,           &kp NUHS,         &kp DLLR,         &kp AMP,          &kp LBRC,          &kp LPAR,             &kp PIPE,      &kp RPAR,     &kp RBRC,          \
-&kp PRCNT,         &kp FSLH,         &kp MINUS,        &kp PLUS,         &kp STAR,         &kp UNDER,         &equal_arrow,     U_NA,          U_NA,         U_NA,              \
+&kp PRCNT,         &kp FSLH,         &kp MINUS,        &kp PLUS,         &kp STAR,         &kp UNDER,         U_NA,     U_NA,          U_NA,         U_NA,              \
 U_NP,              U_NP,             &kp LPAR,         &kp RPAR,         &kp UNDER,        U_NA,              U_NA,                 U_NA,          U_NP,         U_NP
 
 #define MIRYOKU_LAYER_NAV \

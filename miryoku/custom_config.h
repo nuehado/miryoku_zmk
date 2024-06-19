@@ -15,7 +15,7 @@ U_NA,              &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp 
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
-&kp APOS,          &kp DQT,          &kp CARET,        &kp BSLH,         &kp GRAVE,        &kp LBKT,          &kp LT,               &kp EQUAL,     &kp RT,       &kp RBKT,            \
-&kp EXCL,          &kp AT,           &kp NUHS,         &kp DLLR,         &kp AMP,          &kp LBRC,          &kp LPAR,             &kp PIPE,      &kp RPAR,     &kp RBRC,          \
-&kp PRCNT,         &kp FSLH,         &kp MINUS,        &kp PLUS,         &kp STAR,         &kp UNDER,         U_NA,                 U_NA,          U_NA,         U_NA,              \
-U_NP,              U_NP,             &kp LPAR,         &kp RPAR,         &kp UNDER,        U_NA,              U_NA,                 U_NA,          U_NP,         U_NP
+&kp SINGLE_QUOTE,      &kp DOUBLE_QUOTES,     &kp CARET,        &kp BACKSLASH,    &kp GRAVE,        &kp LEFT_BRACKET,       &kp LESS_THAN,            &kp EQUAL,     &kp GREATER_THAN,         &kp RIGHT_BRACKET, \
+&kp EXCLAMATION,       &kp AT_SIGN,           &kp HASH,         &kp DOLLAR,       &kp AMPERSAND,    &kp LEFT_BRACE,         &kp LEFT_PARENTHESIS,     &kp PIPE,      &kp RIGHT_PARENTHESIS,    &kp RIGHT_BRACE,   \
+&kp PERCENT,           &kp SLASH,             &kp MINUS,        &kp PLUS,         &kp ASTERISK,     &kp UNDERSCORE,         U_NA,                     U_NA,          U_NA,                     U_NA,              \
+U_NP,                  U_NP,                 U_NA,              U_NA,             U_NA,             U_NA,                   U_NA,                     U_NA,          U_NP,                     U_NP
